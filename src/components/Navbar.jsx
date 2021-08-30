@@ -20,14 +20,14 @@ function Topbar() {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Nav.Link href="#action1" className="text-white"> {<Home />} Home</Nav.Link>
-                        <Nav.Link href="#action2" className="text-white">Link</Nav.Link>
+                        <h5 className="text-white"> {<Home />} Wow: Development: Quality:Assurance: Nepal</h5>
+
 
                     </Nav>
                     <Form className="d-flex">
                         <FormControl
                             type="search"
-                            placeholder="Search here"
+                            placeholder="Wowdevqa:search.."
                             className="mr-2"
                             aria-label="Search"
 
@@ -35,9 +35,9 @@ function Topbar() {
                         <Button variant="outline-danger">{<Search />}</Button>
 
                     </Form>
-                    <Nav.Link href="#action1" className="text-white"> {<Email />} </Nav.Link>
-                    <Nav.Link href="#action1" className="text-white"> {<Notifications />} </Nav.Link>
-                    <Nav.Link href="#action1" className="text-white"> {< AccountCircle />} </Nav.Link>
+                    <Nav.Link href="#action1" className="text-white" id="icon"> {<Email />} </Nav.Link>
+                    <Nav.Link href="#action1" className="text-white" id="icon"> {<Notifications />} </Nav.Link>
+                    <Nav.Link href="#action1" className="text-white" id="icon"> {< AccountCircle />} </Nav.Link>
 
                 </Navbar.Collapse>
             </Navbar>
