@@ -9,6 +9,15 @@ img {
 
 }
 
+.icons {
+    margin-left: 150px;
+    display: flex;
+}
+
 #icon {
+    margin-left: 10px;
+}
+
+Form {
     margin-left: 30px;
 }

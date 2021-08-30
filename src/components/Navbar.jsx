@@ -35,12 +35,15 @@ function Topbar() {
                         <Button variant="outline-danger">{<Search />}</Button>
 
                     </Form>
-                    <Nav.Link href="#action1" className="text-white" id="icon"> {<Email />} </Nav.Link>
-                    <Nav.Link href="#action1" className="text-white" id="icon"> {<Notifications />} </Nav.Link>
-                    <Nav.Link href="#action1" className="text-white" id="icon"> {< AccountCircle />} </Nav.Link>
+                    <div className="icons">
+                        <Nav.Link href="#email" className="text-white" id="icon"> {<Email />} </Nav.Link>
+                        <Nav.Link href="#notifications" className="text-white" id="icon"> {<Notifications />} </Nav.Link>
+                        <Nav.Link href="#account" className="text-white" id="icon"> {< AccountCircle />} </Nav.Link>
+                    </div>
 
                 </Navbar.Collapse>
             </Navbar>
+
 
         </>
 
