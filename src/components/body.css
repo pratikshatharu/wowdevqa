@@ -9,7 +9,6 @@ h3 {
     text-align: center;
 }
 
-h1,
-ol {
-    text-align: center;
+ul {
+    margin-top: 40px;
 }
