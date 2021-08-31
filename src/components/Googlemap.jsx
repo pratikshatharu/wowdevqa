@@ -44,7 +44,7 @@ export class Googlemap extends Component {
                 <Map google={this.props.google} zoom={14}>
 
                     <Marker onClick={this.onMarkerClick}
-                        name={'Kathmandu'} />
+                        name={'Current location'} />
 
                     <InfoWindow onClose={this.onInfoWindowClose}>
                         <div>
