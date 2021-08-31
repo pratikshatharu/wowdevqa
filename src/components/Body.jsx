@@ -2,6 +2,7 @@ import React from "react";
 import "./body.css";
 import Topbar from './Navbar';
 import { Email, Phone } from '@material-ui/icons';
+import RectPlayer from 'raect-player';
 
 function Body() {
     return (
@@ -17,6 +18,9 @@ function Body() {
                 </ul>
                 <h6>{<Phone />} Contact:+9779841224387,+9779801034557 {<Email />} Email:wowdevqa@wowdevqa.com,lavakafle@wowdevqa.com</h6>
             </section>
+            <section>
+                <ReactPlayer url="https://www.youtube.com/watch?v=QO0z8ZNjeBk" ></ReactPlayer>
+            </setion>
 
         </>
 
