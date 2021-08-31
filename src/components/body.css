@@ -12,3 +12,8 @@ h3 {
 ul {
     margin-top: 40px;
 }
+
+.video {
+    height: auto;
+    width: 1199px;
+}
