@@ -19,6 +19,8 @@ function Body() {
                 <h6>{<Phone />} Contact:+9779841224387,+9779801034557 {<Email />} Email:wowdevqa@wowdevqa.com,lavakafle@wowdevqa.com</h6>
                 <div className="video">
                     <ReactPlayer url="https://www.youtube.com/watch?v=QO0z8ZNjeBk" />
+
+
                 </div>
             </section>
 
